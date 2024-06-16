@@ -1,0 +1,14 @@
+pip install flask
+pip install nltk
+pip install torch
+pip install numpy
+pip install pyautogui
+pip install playsound
+pip install pywhatkit
+pip install pywikihow
+pip install pyaudio
+pip install pyjokes
+pip install pyttsx3
+pip install requests
+pip install speechrecognition
+pip install sympy

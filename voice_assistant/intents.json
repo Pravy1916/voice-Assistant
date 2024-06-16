@@ -1,0 +1,411 @@
+{
+    "intents":[
+        {
+            "tag":"greetings",
+            "patterns":["hello","hi","hi jarvis","hello jarvis","hii","hey","hai","wake up","jarvis"],
+            "responses":[
+                "Hello sir", "how are you sir.", "always for you sir" 
+            ]
+        },
+
+        {
+            "tag":"bye",
+            "patterns":["bye","good bye", "see you later", "sleep", "exit","stop","bye jarvis"],
+            "responses":[
+                "bye sir", "ok,any help contact me again", "good nice to meet you",
+                "take care sir, bye", "good bye sir." 
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how are you","are you fine", "are you good", "how is your day","how r u"],
+            "responses":[
+                "Fine sir.", "i am alright sir.", "i am fine sir",
+                "i am fine." 
+            ]
+        },
+
+        {
+            "tag":"identity",
+            "patterns":["your name","who are you", "what is your name"],
+            "responses":[
+                "jarvis", "my name is jarvis", "iam an A I assistent"
+            ]
+        },
+
+        {
+            "tag":"personal",
+            "patterns":["what is my name","who i am", "can you know me", "you know who i am"],
+            "responses":[
+                "your name is praveen", "you are graduated student", "yes you are my master",
+                "yes sir i know you"
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": ["what are you doing","what are you upto"],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [ "you are dumb","shut up","idiot","you are waste"],
+            "responses": [
+                "Well that hurts :("
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [" you are awesome","Great","I know","ok","yeah"],
+            "responses": [
+                "Yeah! happy to here that"
+            ]
+        },
+
+        {
+            "tag":"joke",
+            "patterns":["tell me a joke","i want to laugh","i am sad","please change my mood","i am disappointed","commedy","jokes"],
+            "responses":[
+                "ok i tell one joke then definatly your mood changed"
+            ]
+        },
+
+        {
+            "tag":"time",
+            "patterns":["what is time","what is the time now", "what's the time", "time"],
+            "responses":[
+                "time is"
+            ]
+        },
+
+        {
+            "tag":"date",
+            "patterns":["today date","what's the date", "date","what's today ","today","date"],
+            "responses":[
+                "today date is"
+            ]
+        },
+
+        
+        {
+            "tag":"day",
+            "patterns":["what is the day","day", "what's the day","which today"],
+            "responses":[
+                "today is"
+            ]
+        },
+        
+        {
+            "tag":"wishes",
+            "patterns":["Good morning","Good afternoon","Good evening","Good night"],
+            "responses":[
+                "hai sir"
+            ]
+        },
+
+
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about", "wikipedia","discuss","derive","explain"],
+            "responses":[
+                "from wikipedia"
+            ]
+        },
+
+        {
+            "tag":"google",
+            "patterns":["in google", "search in google"],
+            "responses":[
+                "google searching"
+            ]
+        },
+   
+        {
+            "tag":"laptop",
+            "patterns":["in laptop", "in system"],
+            "responses":[
+                "opening laptop application"
+            ]
+        },
+   
+        {
+            "tag":"youtube",
+            "patterns":["youtube", "search in youtube","in youtube","full video song","teaser","trailer"],
+            "responses":[
+                "youtube searching"
+            ]
+        },
+        {
+            "tag":"helping mode",
+            "patterns":["activate helping mode and say","start helping mode and say"],
+            "responses":[
+                "helping mode activated"
+            ]
+        },
+   
+
+        {
+            "tag":"website",
+            "patterns":["open website", "launch website"],
+            "responses":[
+                "opening website"
+            ]
+        },
+
+
+        {
+            "tag":"songs",
+            "patterns":["play songs", "play music", "songs","music"],
+            "responses":[
+                "Ok sir playing songs"
+            ]
+        },
+
+        {
+            "tag": "call",
+            "patterns": ["call","call to"],
+            "responses": [
+                "Sure calling",
+                "Making a call."
+            ]
+        },
+        {
+            "tag": "math",
+            "patterns": ["calculate", "solve", "math", "compute"],
+            "responses": ["math","Sure, I can help with that math.", "Let me calculate math problem for you.","caluclating math problem","sloving math problem"]
+        },
+        {
+            "tag": "wifi",
+            "patterns": ["wifi on","wifi off","wi-fi", "turn on wifi", "turn off wifi"],
+            "responses": ["sure,wifi"]
+        },
+        
+        {
+            "tag": "bluetooth",
+            "patterns": ["bluetooth on","bluetooth off", "turn on bluetooth", "turn off bluetooth"],
+            "responses": ["sure,bluetooth"]
+        },
+        
+        {
+            "tag": "airoplane mode",
+            "patterns": ["turn on airoplane mode", "turn off airoplane mode","airoplane mode on","airoplane mode off"],
+            "responses": ["sure,airoplane mode"]
+        },
+        
+        {
+            "tag": "battery saver",
+            "patterns": ["turn on battery saver", "turn off battery saver","battery saver on","battery saver off"],
+            "responses": ["sure,battery saver"]
+        },
+        {
+            "tag": "accessibility",
+            "patterns": ["turn on accessibility", "turn off accessibility"],
+            "responses": ["sure,accessibility"]
+        },
+        
+        {
+            "tag": "nearby sharing",
+            "patterns": [ "turn on nearby sharing", "turn off nearby sharing","turn on sharing","share","sharit","sharing on","sharing off"],
+            "responses": ["sure,nearby sharing"]
+        },
+        
+        {
+            "tag": "cast",
+            "patterns": ["turn on cast", "turn off cast"],
+            "responses": ["sure,cast"]
+        },
+        
+        {
+            "tag": "night light",
+            "patterns": ["turn on night light", "turn off night light","night light on","night light off"],
+            "responses": ["sure,night light"]
+        },
+        
+        {
+            "tag": "mobile hotspot",
+            "patterns": ["turn on mobile hotspot", "turn off mobile hotspot", "hotspot on","hotspot off"],
+            "responses": ["sure,mobile hotspot"]
+        },
+        
+        {
+            "tag": "project",
+            "patterns": ["turn on project", "turn off project"],
+            "responses": ["sure,project"]
+        },
+
+        {
+            "tag": "volume up",
+            "patterns": ["volume up","up volume"],
+            "responses": ["sure"]
+        },
+        {
+            "tag": "volume down",
+            "patterns": ["volume down","down volume"],
+            "responses": ["sure"]
+        },
+        {
+            "tag": "mute volume",
+            "patterns": ["volume mute","mute volume","volume off"],
+            "responses": ["sure"]
+        },
+        {
+            "tag": "new tab",
+            "patterns": ["new tab","create tab","tab new"],
+            "responses": ["sure"]
+        },
+        {
+            "tag": "close tab",
+            "patterns": ["close tab","destroy tab","kill new","delete tab","tab close"],
+            "responses": ["sure"]
+        },
+        {
+            "tag": "recent tab",
+            "patterns": ["recent tab","open recent tab"],
+            "responses": ["sure"]
+        },
+        
+        {
+            "tag": "task manager",
+            "patterns": [" open task manager","task manager"],
+            "responses": ["sure"]
+        },       
+        {
+            "tag":"screen shot",
+            "patterns":["take screen shot","snap the screen", "screenshot","capture image"],
+            "responses":[
+                "screen shot is saved."
+            ]
+        },
+        {
+            "tag":"snippet",
+            "patterns":["snippet","take a snippet"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"minimise windows",
+            "patterns":["minimise windows","windows minimise","minimize window","window minimize","maximize widow","maximise window"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"window left",
+            "patterns":["window left","left window","adjust window left","set window right"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"window right",
+            "patterns":["window right","right window","adjust window right","set window right"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"window up",
+            "patterns":["window up","up window","adjust window up","adjust window up","set window up"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"window down",
+            "patterns":["window down","down window","adjust window down","adjust window down","set window down"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"notification bar",
+            "patterns":["open notificaton bar","notificaton bar open","notification open"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"create desktop",
+            "patterns":["create desktop","new desktop","open new desktop","create virtual desktop"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"right desktop",
+            "patterns":["right desktop","desktop right","right virtual desktop"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"left desktop",
+            "patterns":["left desktop","desktop left","left virtual desktop"],
+            "responses":[
+                "sure"
+            ]
+        },
+        
+        {
+            "tag":"delete desktop",
+            "patterns":["delete desktop","close desktop","close virtual desktop","delete virtual desktop"],
+            "responses":[
+                "sure"
+            ]
+        },
+        {
+            "tag":"close window",
+            "patterns":["delete window","close window","window close"],
+            "responses":[
+                "sure"
+            ]
+        },
+        
+        {
+            "tag":"restart",
+            "patterns":["restart","restart"],
+            "responses":[
+                "restarting  wait 5 seconds"
+            ]
+        },
+        {
+            "tag":"shut down",
+            "patterns":["shut down","close laptop"],
+            "responses":[
+                "shuting down wait 5 seconds"
+            ]
+        },
+        {
+            "tag":"whatsapp",
+            "patterns":["send whats app message to","send what's app message to","push whatsapp message to"],
+            "responses":[
+                "sending whatsapp message"
+            ]
+        },
+        {
+            "tag":"voice type",
+            "patterns":["start voice type","open voice type"],
+            "responses":[ "thank you for using voice type"
+            ]
+        },
+        {
+            "tag":"weather",
+            "patterns":["weather","weather in"],
+            "responses":[
+                "analysing weather"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": ["unrecognized"],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        }
+
+    ]
+}

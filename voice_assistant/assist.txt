@@ -1,0 +1,30 @@
+***no. of feautures in our project***
+
+1)   wikipedia text and speach
+2)   google and youtube search
+3)   opening laptop applications
+4)   playing random songs in system
+5)   calling
+6)   solving mathematical questions
+7)   sending whatsapp message to friend
+8)   doing windows shortcuts (closing tabs,opening tabs,creating/deleting desktops,window adjustments....etc)
+9)   turning on/off tools (bluetooth,wifi,airoplane mode.....etc)
+10)  helping mode (helping in cooking,ticket book process,giing response for "how to" question)
+11)  opening websites
+12)  telling jokes
+13)  voice typing
+14)  telling date,time,day,weather and general questions 
+
+
+
+
+***6 types of voices in our system***
+0) David
+1) james
+2) heera (F)
+3) ravi
+4) mark  
+5) Catherine (F)
+6) zira (F)
+
+
